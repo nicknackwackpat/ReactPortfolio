@@ -8,15 +8,15 @@ import Contact from "./components/pages/Contact";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
         <NavTabs />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Router>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+        </Router>
       </div>
-    </Router>
   );
 }
 
