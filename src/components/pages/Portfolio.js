@@ -1,20 +1,20 @@
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import NestedGrid from './../NestedGrid';
-import PortfolioCard from './../PortfolioCard';
+// import PortfolioCard from './../PortfolioCard';
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-  media: {
-    height: 140,
-  },
-});
+// const useStyles = makeStyles({
+//   root: {
+//     maxWidth: 345,
+//   },
+//   media: {
+//     height: 140,
+//   },
+// });
 
 export default function Portfolio() {
 
-  const classes = useStyles();
+  // const classes = useStyles();
   
   return (
   <>
